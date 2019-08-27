@@ -13,3 +13,7 @@ guidence  jetbot-nano setup repo
    ```
   4.
   5.
+
+ ## 참고 사이트
+ 1. jetsonhacks[LINK](https://www.jetsonhacks.com/)
+   : https://www.jetsonhacks.com/
