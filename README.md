@@ -162,11 +162,9 @@
      - https://stackoverflow.com/questions/8863917/importerror-no-module-named-pil
      - https://devtalk.nvidia.com/default/topic/1049302/jetson-nano/jetbot-pioled-access-/
      - https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage
-
-  ```
   - 엔비디아의 Jetson 제품군 tensorflow 설치 사이트 [링크](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
     - https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html
-  - 젯봇에 로스를 설치할때 [링크](https://github.com/dusty-nv/jetbot_ros?nvid=nv-int-86795)
+  - 젯봇에 로스를 설치할때 jetbot_ros[링크](https://github.com/dusty-nv/jetbot_ros?nvid=nv-int-86795)
     - https://github.com/dusty-nv/jetbot_ros?nvid=nv-int-86795
   - 젯봇 로스 링크 여기도 참고
     - https://www.stereolabs.com/blog/ros-and-nvidia-jetson-nano/
@@ -174,7 +172,7 @@
     - https://developer.nvidia.com/embedded-computing
   - 젯봇 사이트 [링크](https://developer.nvidia.com/embedded/community/jetson-projects)
     - https://developer.nvidia.com/embedded/community/jetson-projects
-  - 우리의 Dusty-nv 사이트 [링크](https://github.com/dusty-nv/jetson-inference)
+  - 우리의 Dusty-nv의 jetson-inference [링크](https://github.com/dusty-nv/jetson-inference)
     - https://github.com/dusty-nv/jetson-inference
   - ROS기반의 딥러닝 [링크](https://github.com/dusty-nv/ros_deep_learning)
     - https://github.com/dusty-nv/ros_deep_learning
