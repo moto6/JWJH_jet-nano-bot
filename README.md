@@ -46,7 +46,7 @@
    - http : // <jetbot_ip_address> : 8888 로 이동하여 Jetbot에 액세스 하십시오.
    - 새 터미널을 시작하십시오. 기본 사용자 이름과 비밀번호는 모두 jetbot입니다
    - GitHub에서 최신 JetBot 리포지토리를 다운로드하여 설치하십시오. 여기에 제공된 리포지토리는 Waveshare에서 수정하여 배터리의 현재 전압 표시를 지원합니다. 원래 코드를 설치하려면 NVIDIA jetbot GitHub를 따르십시오.
-   - 깃허브 주소 : https://github.com/waveshare/jetbot
+   - 깃허브 주소 : https://github.com/NVIDIA-AI-IOT/jetbot
    - 설치 명령어
       ```
       cd jetbot
@@ -176,3 +176,13 @@
     - https://github.com/dusty-nv/jetson-inference
   - ROS기반의 딥러닝 [링크](https://github.com/dusty-nv/ros_deep_learning)
     - https://github.com/dusty-nv/ros_deep_learning
+
+
+
+## todo
+ 1. ros melodic install
+ 2.  git clone https://github.com/NVIDIA-AI-IOT/jetbot
+   - and install
+ 3. git clone https://github.com/d-h-k/DHKim_EnvSettings.git
+   - 16 ver install
+   
