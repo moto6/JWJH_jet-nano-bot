@@ -12,10 +12,6 @@
    8. 
    9. ㄴㅇㄹ
 
-  #
-  ## 1. Jetbot Kit 조립하기
-   - JetBot AI Kit 조립 메뉴얼 [Link](https://www.waveshare.com/wiki/JetBot_AI_Kit_Assemble_Manual) , [Mirror](/meterials/JetBot AI Kit Assemble Manual - Waveshare Wiki.pdf)
-  #
   ## 2. Jetbot을 위한 Image 를 SD카드에 굽기
    - [링크 참조]()
   #
