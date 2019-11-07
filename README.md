@@ -2,8 +2,8 @@
  - guidence  jetbot-nano setup repo
  - 원문출처 : JetBot AI Kit Wiki [Link](https://www.waveshare.com/wiki/JetBot_AI_Kit)
  - 아래 두가지 것들에 대한 문서입니다
- - ![](img\jn.jpg)
- - ![](img\jb.jpg)
+ - ![1](img\jn.jpg)
+ - ![1](img\jb.jpg)
  ### 목차
    1. README & 시작하기전에 : [README](\README.md)(이 페이지) 
    2. [젯봇 하드웨어 구성](Docs\2_JETBOT_HW_SETUP.md)
