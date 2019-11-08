@@ -9,8 +9,11 @@
    2. [젯봇 하드웨어 구성](/Docs/2_JETBOT_HW_SETUP.md)
    3. [젯봇 소프트웨어 구성](/Docs/3_JETBOT_SW_SETUP.md)
    4. [예제 1번 - 기본동작 : Basic Motion](/notebooks_deploy/basic_motion/BM_1_basic_motion.ipynb)
-   5. [예제 2번 - 원격조종 : teleoperation](Docs/5_teleoperation.md)
-   6. [예제 3번 - 충돌회피 : collision_avoidance](Docs/6_collision_avoidance.md)
+   5. [예제 2번 - 원격조종 : teleoperation](/notebooks_deploy/teleoperation/TOP_teleoperation.ipynb)
+   6. 예제 3번 - 충돌회피
+     - 6-1 [예제 3번 - 충돌회피 - 데이터 수집 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_1_data_collection.ipynb)
+     - 6-2 [예제 3번 - 충돌회피 - 모델 학습 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_2_train_model.ipynb)
+     - 6-3 [예제 3번 - 충돌회피 - 라이브 데모 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_3_live_demo.ipynb)
    7. [예제 4번 - 객체추적 : object_following](Docs/7_object_following.md)
    8. [예제 5번 - 라인따라가기 : road_following](Docs/8_road_following.md)
    9. [도움말 - 원격에서 주피터노트북으로 접속](Docs)
