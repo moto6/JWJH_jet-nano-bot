@@ -1,4 +1,4 @@
-# Jetbot & jetson-nano
+# Jetbot & Jetson-nano
  - guidence  jetbot-nano setup repo
  - 원문출처 : JetBot AI Kit Wiki [Link](https://www.waveshare.com/wiki/JetBot_AI_Kit)
  - 아래 두가지 것들에 대한 문서입니다
@@ -8,14 +8,17 @@
    1. README & 시작하기전에 : [README](\README.md)(이 페이지) 
    2. [젯봇 하드웨어 구성](/Docs/2_JETBOT_HW_SETUP.md)
    3. [젯봇 소프트웨어 구성](/Docs/3_JETBOT_SW_SETUP.md)
-   4. [예제 1번 - 기본동작 : Basic Motion](/notebooks_deploy/basic_motion/BM_1_basic_motion.ipynb)
-   5. [예제 2번 - 원격조종 : teleoperation](/notebooks_deploy/teleoperation/TOP_teleoperation.ipynb)
-   6. 예제 3번 - 충돌회피
-     - 6-1 [예제 3번 - 충돌회피 - 데이터 수집 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_1_data_collection.ipynb)
-     - 6-2 [예제 3번 - 충돌회피 - 모델 학습 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_2_train_model.ipynb)
-     - 6-3 [예제 3번 - 충돌회피 - 라이브 데모 : collision_avoidance](/notebooks_deploy/collision_avoidance/CA_3_live_demo.ipynb)
-   7. [예제 4번 - 객체추적 : object_following](Docs/7_object_following.md)
-   8. [예제 5번 - 라인따라가기 : road_following](Docs/8_road_following.md)
+   4. [ 기본동작 : Basic Motion](/notebooks_deploy/basic_motion/BM_1_basic_motion.ipynb)
+   5. [ 원격조종 : teleoperation](/notebooks_deploy/teleoperation/TOP_teleoperation.ipynb)
+   6. [ 객체추적 : object_following](Docs/7_object_following.md)
+   7. 충돌회피 (collision_avoidance)
+      - 7-1 [ 충돌회피 - 데이터 수집 ](/notebooks_deploy/collision_avoidance/CA_1_data_collection.ipynb)
+      - 7-2 [ 충돌회피 - 모델 학습 ](/notebooks_deploy/collision_avoidance/CA_2_train_model.ipynb)
+      - 7-3 [ 충돌회피 - 라이브 데모 ](/notebooks_deploy/collision_avoidance/CA_3_live_demo.ipynb)
+   8. 라인따라가기 (road_following)<!--(Docs/8_road_following.md)-->
+      - 8-1 [라인따라가기 - 데이터 수집 ](/notebooks_deploy/road_following/RF_1_data_collection.ipynb)
+      - 8-2 [라인따라가기 - 모델 학습 ](/notebooks_deploy/road_following/RF_2_train_model.ipynb)
+      - 8-3 [라인따라가기 - 라이브 데모 ](/notebooks_deploy/road_following/RF_3_live_demo.ipynb)
    9. [도움말 - 원격에서 주피터노트북으로 접속](Docs)
    10. [도움말 - ROS Melodic 설치하기]()
    11. [도움말 - 참고 사이트]()
@@ -26,6 +29,13 @@
     - (필수) 5V 4A 어댑터 : [구매링크 - 명호전자 5V4A](https://smartstore.naver.com/mhtech/products/4717183893?NaPm=ct%3Dk2oc94jk%7Cci%3Dc77bde10634bb8be81395c3976830508b9c9331c%7Ctr%3Dsls%7Csn%3D1059532%7Chk%3Dbf83484570075152a0e65ebfa4ab2489ea497471) - 이해관계 없습니다. 
     - (옵션) Wifi 모듈 : 네.. 기본 wifi모듈은 없습니다. 모뎀을 따로 구매해야 합니다.. 모뎀을 따로 구매하면 약 4만원이지만 약 12만원정도 하는 Jetbot 키트를 구매하시면 Wifi 모듈이 동봉되어 있습니다 (Wifi모듈 : Intel Dual Band Wireless-AC 8265)
          - Wifi 모뎀 구매처 [링크-네이버 최저가 검색](https://search.shopping.naver.com/search/all.nhn?query=Intel+Dual+Band+Wireless-AC+8265&frm=NVSCPRO)
+ - 프로그래밍 언어는 대부분 python3 입니다.
+    - [python 더 알아보기](https://docs.python.org/ko/3/reference/index.html)        
+ - Machine Learing/ Deep Learing 관련 프레임워크(혹은 라이브러리)는 아래의 종류들을 주로 사용합니다.
+    - pytorch 및 pytorch 의 하위 Library(예를들어  torchvision)
+    - SSD(Single Shot MultiBox Detector / 오브젝트 디텍터) - [더 알아보기](https://m.blog.naver.com/sogangori/221007697796)
+    - Alexnet (딥러닝 네트워크) - [더 알아보기](https://bskyvision.com/421)
+    - coco - [더 알아보기](http://cocodataset.org/#home)
   #
   ## 셋업하는 방법 두가지
    1. JETPACK4.X 버전 설치 후 SW 패키지설치 -> 단점 : 비교적 시간이 더 걸림(2~3H정도), 장점 : 항상 최신버전의 SW사용 가능 
