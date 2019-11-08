@@ -26,7 +26,8 @@
   #
   ## 셋업하는 방법 두가지
    1. JETPACK4.X 버전 설치 후 SW 패키지설치 -> 단점 : 비교적 시간이 더 걸림(2~3H정도), 장점 : 항상 최신버전의 SW사용 가능 
-   2. JETBOT ISO파일 다운받아 굽기 -> 시간이 짧으나 최신버전 SW사용이 힘듬...
+   2. JETBOT ISO파일 다운받아 굽기 -> 시간이 짧으나 최신버전 SW사용이 힘듬... [젯봇위키의 ISO 위치 Link](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup#step-1---flash-jetbot-image-onto-sd-card)  /  [바로 다운로드-](https://drive.google.com/open?id=1GF2D814hkViwluZ5SgNKW56cQu_5Ekt5)
+   
   # 
   ## 원격에서 주피터노트북으로 접속
    #### [이 링크를 클릭하여 참고해 주세요](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup#step-5---install-latest-software-optional)
