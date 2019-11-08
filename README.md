@@ -23,8 +23,13 @@
     - (필수) 5V 4A 어댑터 : [구매링크 - 명호전자 5V4A](https://smartstore.naver.com/mhtech/products/4717183893?NaPm=ct%3Dk2oc94jk%7Cci%3Dc77bde10634bb8be81395c3976830508b9c9331c%7Ctr%3Dsls%7Csn%3D1059532%7Chk%3Dbf83484570075152a0e65ebfa4ab2489ea497471) - 이해관계 없습니다. 
     - (옵션) Wifi 모듈 : 네.. 기본 wifi모듈은 없습니다. 모뎀을 따로 구매해야 합니다.. 모뎀을 따로 구매하면 약 4만원이지만 약 12만원정도 하는 Jetbot 키트를 구매하시면 Wifi 모듈이 동봉되어 있습니다 (Wifi모듈 : Intel Dual Band Wireless-AC 8265)
          - Wifi 모뎀 구매처 [링크-네이버 최저가 검색](https://search.shopping.naver.com/search/all.nhn?query=Intel+Dual+Band+Wireless-AC+8265&frm=NVSCPRO)
+  #
+  ## 셋업하는 방법 두가지
+   1. JETPACK4.X 버전 설치 후 SW 패키지설치 -> 단점 : 비교적 시간이 더 걸림(2~3H정도), 장점 : 항상 최신버전의 SW사용 가능 
+   2. JETBOT ISO파일 다운받아 굽기 -> 시간이 짧으나 최신버전 SW사용이 힘듬...
   # 
   ## 원격에서 주피터노트북으로 접속
+   ### [이 링크를 클릭하여 참고해 주세요](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup#step-5---install-latest-software-optional)
    - http : // <jetbot_ip_address> : 8888 로 이동
    - "~/Notebooks/basic_motion/" 경로로 이동하여 jetbot에 액세스 하십시오.(아래 명령어 사용)
       ```
@@ -32,6 +37,14 @@
       ```
    - basic_motion.ipynb 파일을 열고 노트북을 팔로우하십시오
    - 【참고】 아이콘 ▶을 클릭하여 코드를 실행하거나 실행-> 셀 선택을 선택할 수 있습니다. JetBot에 충분한 공간이 있는지 확인하십시오.
+   - 설치
+     ```
+     git clone https://github.com/NVIDIA-AI-IOT/jetbot
+     cd jetbot
+     sudo python3 setup.py install
+     sudo apt-get install rsync
+     rsync jetbot/notebooks ~/Notebooks
+     ```
   # 
   ## ROS 
    - Melodic 설치만 가능합니다. 키네틱은 공식적으로 지원되지 않습니다
