@@ -29,7 +29,7 @@
    2. JETBOT ISO파일 다운받아 굽기 -> 시간이 짧으나 최신버전 SW사용이 힘듬...
   # 
   ## 원격에서 주피터노트북으로 접속
-   ### [이 링크를 클릭하여 참고해 주세요](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup#step-5---install-latest-software-optional)
+   #### [이 링크를 클릭하여 참고해 주세요](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup#step-5---install-latest-software-optional)
    - http : // <jetbot_ip_address> : 8888 로 이동
    - "~/Notebooks/basic_motion/" 경로로 이동하여 jetbot에 액세스 하십시오.(아래 명령어 사용)
       ```
