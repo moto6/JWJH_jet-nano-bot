@@ -93,5 +93,5 @@
    - 참고 m1 : 5W 전원 모드, m2 : 10W 전원 모델
    - 혹시라도 나노가 자꾸 꺼진다면 이 부분을 확인
  # 
- ## 다음 장 - [클릭하면 넘어갑니다](/Docs/4_Example1_Basic Motion.md)
+ ## 다음 장 - [클릭하면 넘어갑니다](./Docs/4_Example1_Basic Motion.md)
    
