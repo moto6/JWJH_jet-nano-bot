@@ -8,7 +8,7 @@
    3. [젯봇 소프트웨어 구성](/Docs/3_JETBOT_SW_SETUP.md)
    4. [ 기본동작 : Basic Motion](/notebooks_deploy/basic_motion/BM_1_basic_motion.ipynb)
    5. [ 원격조종 : teleoperation](/notebooks_deploy/teleoperation/TOP_teleoperation.ipynb)
-   6. [ 객체추적 : object_following](Docs/7_object_following.md)
+   6. [ 객체추적 : object_following](/notebooks_deploy/object_following/OF_1_live_demo.ipynb)
    7. 충돌회피 (collision_avoidance)
       - 7-1 [ 충돌회피 - 데이터 수집 ](/notebooks_deploy/collision_avoidance/CA_1_data_collection.ipynb)
       - 7-2 [ 충돌회피 - 모델 학습 ](/notebooks_deploy/collision_avoidance/CA_2_train_model.ipynb)
