@@ -93,3 +93,9 @@
     - https://github.com/dusty-nv/jetson-inference
   - ROS기반의 딥러닝 [링크](https://github.com/dusty-nv/ros_deep_learning)
     - https://github.com/dusty-nv/ros_deep_learning
+ #
+ ## ToDo More
+  - 텔레오퍼 그거 음 그 http 들어가서 드라이버 확인하고조이스틱 반응 확인 한 다음에 나노 우분투에서 확인해서 역시 반응확인하면 주피터에서도 됨
+  - 다른예제 구동하기 - 딥러닝 
+  - 나노 구매? MDS??
+  - 트랜싼드 SD카드 느려서 빡침 - 갓성으로 간다
